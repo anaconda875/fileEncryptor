@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="retype_password">Confirm password</string>
+	<string name="retype_new_pw">Confirm new password</string>
+	<string name="please_wait">Please wait</string>
+    <string name="register">Register</string>
+	<string name="registering">Registering</string>
+    <string name="email_address">Email address</string>
+	<string name="reset_pw_email">An email has been sent to your inbox</string>
+	<string name="email_not_verified">This email is not verified</string>
+    <string name="password">Password</string>
+	<string name="old_pw">Old password</string>
+	<string name="new_pw">New password</string>
+    <string name="login">Login</string>
+	<string name="logging_in">Logging in</string>
+	<string name="logout">Logout</string>
+	<string name="logging_out">Logging out</string>
+	<string name="logout_now">Logout now?</string>
+    <string name="register_now">Need an account? Register now!</string>
+    <string name="registration">Registration</string>
+	<string name="confirm_registration">Confirm registration</string>
+	<string name="confirm_reset_pw">Are you sure to reset your password?</string>
+	<string name="confirm_email_exists">A verification email will be sent to your inbox. Are you sure to use this email to complete the registration?</string>
+	<string name="registration_complete">Registration complete</string>
+	<string name="changing_pw">Changing password</string>
+	<string name="author_info">Email: hflbtmax@gmail.com\nFacebook: baongoSoT</string>
+	<string name="about_me">About me</string>
+    <string name="app_name">firebaseUserID</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+	<string name="forgot_pw">Forgot password?</string>
+	<string name="done">Done</string>
+	<string name="cancel">Cancel</string>
+
+</resources>

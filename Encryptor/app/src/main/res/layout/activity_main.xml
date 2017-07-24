@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<android.support.design.widget.CoordinatorLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:tools="http://schemas.android.com/tools"
+		xmlns:app="http://schemas.android.com/apk/res-auto"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="#fafafa"
+	>
+	
+		<android.support.v7.widget.Toolbar
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:app="http://schemas.android.com/apk/res-auto"
+			android:id="@+id/toolbar"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="#038582"
+			android:theme="@style/GalaxyZooThemeToolbarDarkOverflow"
+			app:popupTheme="@style/Theme.AppCompat.Light" />
+
+
+		<android.support.design.widget.FloatingActionButton
+			android:id="@+id/fabDecrypt"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="bottom|end"
+			android:elevation="5dp"
+			android:layout_marginBottom="176dp"
+			android:layout_marginRight="16dp"
+			android:src="@drawable/ic_decrypt"
+			app:pressedTranslationZ="10dp"
+			app:backgroundTint="#25DE25"
+			android:visibility="invisible"
+		/>
+
+		<android.support.design.widget.FloatingActionButton
+			android:id="@+id/fabEncrypt"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="bottom|end"
+			android:elevation="5dp"
+			android:layout_marginBottom="96dp"
+			android:layout_marginRight="16dp"
+			android:src="@drawable/ic_encrypt"
+			app:pressedTranslationZ="10dp"
+			android:visibility="invisible"
+			app:backgroundTint="#E33030"
+		/>
+
+		<android.support.design.widget.FloatingActionButton
+			android:id="@+id/fabRoot"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="bottom|end"
+			android:elevation="5dp"
+			android:layout_marginBottom="16dp"
+			android:layout_marginRight="16dp"
+			android:src="@drawable/ic_add"
+			app:pressedTranslationZ="10dp"
+			app:backgroundTint="#DFE535"
+		/>
+
+
+	</android.support.design.widget.CoordinatorLayout>
+
+
