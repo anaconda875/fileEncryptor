@@ -99,7 +99,6 @@ public class LoginActivity extends AppCompatActivity {
 		edtPw = (EditText) findViewById (R.id.edtPw);
 		btnLogin = (Button) findViewById (R.id.btnLogin);
 		txtForgotPw = (TextView) findViewById (R.id.txtForgotPw);
-		txtForgotPw = (TextView) findViewById (R.id.txtForgotPw);
 		txtReg = (TextView) findViewById (R.id.txtReg);
 		imgLogo = (ImageView) findViewById (R.id.imgLogo);
 		firebaseAuth = FirebaseAuth.getInstance ();
