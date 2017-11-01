@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:padding="10dp"
+	android:gravity="center">
+
+	<EditText
+		android:id="@+id/edtUserName1"
+		android:hint="User name"
+		android:singleLine="true"
+		android:imeOptions="actionNext"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textColorHint="#363636"
+		android:textColor="#000000"/>
+
+	<EditText
+		android:id="@+id/edtPw1"
+		android:hint="Password"
+		android:singleLine="true"
+		android:imeOptions="actionDone"
+		android:inputType="textPassword"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textColorHint="#363636"
+		android:textColor="#000000"/>
+
+	<Button
+		android:layout_marginTop="10dp"
+		android:id="@+id/btnLogin1"
+		android:text="Login"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textColor="#000000"/>
+
+</LinearLayout>
+
